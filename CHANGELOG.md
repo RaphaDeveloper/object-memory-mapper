@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/RaphaDeveloper/object-memory-mapper/compare/v1.0.0...v1.0.1) (2025-11-15)
+
+
+### Bug Fixes
+
+* export entity-manager ([0aa189d](https://github.com/RaphaDeveloper/object-memory-mapper/commit/0aa189de5281d04826b04b973f9f366e005ad734))
+
 # 1.0.0 (2025-11-15)
 
 
