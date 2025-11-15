@@ -1,14 +1,16 @@
 {
   "name": "object-memory-mapper",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsup src/index.ts --dts --format cjs,esm",
-    "test": "jest"
+    "test": "jest",
+    "release": "semantic-release"
   },
   "files": [
     "dist"
@@ -20,9 +22,16 @@
     "access": "public"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.2",
+    "@semantic-release/npm": "^13.1.2",
+    "@semantic-release/release-notes-generator": "^14.1.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.10.1",
     "jest": "^30.2.0",
+    "semantic-release": "^25.0.2",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.1",
