@@ -1,7 +1,7 @@
 import { EntitiesByType } from "./entities/entities-by-type";
 import { EntityManager } from "./entity-manager";
 import { OperationSet } from "./operations/operation-set";
-import { PersistenceTarget } from "./persistence-target.interface";
+import type { PersistenceTarget } from "./persistence-target.interface";
 import { Transaction } from "./transaction";
 
 export class DataSource implements PersistenceTarget {

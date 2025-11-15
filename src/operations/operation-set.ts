@@ -1,7 +1,7 @@
 import { EntitiesByType } from "../entities/entities-by-type";
-import { Entity } from "../entities/entity";
+import type { Entity } from "../entities/entity";
 import { Delete } from "./delete";
-import { Operation } from "./operation.interface";
+import type { Operation } from "./operation.interface";
 import { Save } from "./save";
 
 export class OperationSet {

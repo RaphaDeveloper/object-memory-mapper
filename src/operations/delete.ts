@@ -1,6 +1,6 @@
 import { EntitiesByType } from "../entities/entities-by-type";
-import { Entity } from "../entities/entity";
-import { Operation } from "./operation.interface";
+import type { Entity } from "../entities/entity";
+import type { Operation } from "./operation.interface";
 
 export class Delete implements Operation {
     constructor(private entity: Entity) {}

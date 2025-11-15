@@ -1,6 +1,6 @@
 import { DataSource } from "./datasource";
 import { OperationSet } from "./operations/operation-set";
-import { PersistenceTarget } from "./persistence-target.interface";
+import type { PersistenceTarget } from "./persistence-target.interface";
 
 export class Transaction implements PersistenceTarget {
     operationSet: OperationSet = new OperationSet();

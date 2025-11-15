@@ -1,6 +1,6 @@
-import { Entity, EntityType } from "./entities/entity";
+import type { Entity, EntityType } from "./entities/entity";
 import { OperationSet } from "./operations/operation-set";
-import { PersistenceTarget } from "./persistence-target.interface";
+import type { PersistenceTarget } from "./persistence-target.interface";
 
 export class EntityManager {
     private operationSet: OperationSet = new OperationSet();

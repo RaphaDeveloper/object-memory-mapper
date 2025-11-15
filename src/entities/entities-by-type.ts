@@ -1,5 +1,5 @@
 import { ImmutableMap } from "../helpers/ImmutableMap";
-import { Entity, EntityType } from "./entity";
+import type { Entity, EntityType } from "./entity";
 
 export class EntitiesByType {
     private entitiesByType: Map<EntityType<Entity>, ImmutableMap<any, Entity>>
